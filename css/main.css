@@ -206,13 +206,14 @@ nav ul li a:hover{
 
 /********************************main area********************/
 .main {
-  width: 96%;
+  width: 100%;
   padding: 0 2%;
   margin:auto;
   max-width: 960px;
 }
 
 .top-img {
+  width: auto;
   max-width: 100%;
   height: auto;
   margin:auto;
