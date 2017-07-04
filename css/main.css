@@ -259,11 +259,34 @@ nav ul li a:hover{
 /********************newsfeed area*******************/
 .feed {
   width: 100%;
+  height:auto;
   margin:auto;
 }
 
 .feed p{
   display:none;
+}
+
+.feed-item {
+  clear:both;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: inline-block;
+}
+
+.feed-item h2 a {
+  color:#222;
+}
+
+.feed-item h2 a:hover{
+  color: #23a4cc;
+}
+
+.feed-item:nth-child(7){
+  border-bottom: none;
 }
 
 .feed-type{
@@ -283,26 +306,11 @@ nav ul li a:hover{
   max-width: 100%;
   max-height: 100%;
 }
-.feed-item{
-  clear:both;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 15px;
-}
 
-.feed-item h2 {
+.feed-info {
   margin: 0;
-}
-
-.feed-item h2 a {
-  color:#222;
-}
-
-.feed-item h2 a:hover{
-  color: #23a4cc;
-}
-
-.feed-item:nth-child(7){
-  border-bottom: none;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .feed-info {
