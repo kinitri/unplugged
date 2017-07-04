@@ -1,0 +1,41 @@
+header
+	logo
+	nav bar
+		concerts icon
+		concerts link
+		reviews icon
+    reviews link
+		about us icon
+		about us link
+		FAQ icon
+    FAQ link
+hero
+  hero image
+  hero heading
+  hero text
+signup section
+  signup heading
+  signup input box
+  signup button
+recent news
+  recent news and reviews heading
+    news/reviews heading1
+    news/reviews image1
+    news/reviews title1
+    news/reviews heading2
+    news/reviews image2
+    news/reviews title2
+    news/reviews heading3
+    news/reviews image3
+    news/reviews title3
+    news/reviews heading4
+    news/reviews image4
+    news/reviews title4
+    news/reviews heading5
+    news/reviews image5
+    news/reviews title5
+    news/reviews heading6
+    news/reviews image6
+    news/reviews title6
+footer
+  footer logo
