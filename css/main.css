@@ -359,16 +359,12 @@ nav ul li a:hover{
   height: 100%;
 }
 
-.mission{
-
-}
-
 .team{
-
+padding-bottom: 10em;
 }
 
 .team-member{
-
+  padding-bottom: 1em;
 }
 
 .team-img{
