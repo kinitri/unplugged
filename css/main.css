@@ -335,6 +335,8 @@ nav ul li a:hover{
   width: 100%;
   margin:auto;
   height: auto;
+  border-top: 1px solid #ccc;
+  padding-top: 1em;
 }
 
 #footer-logo img{
@@ -406,6 +408,10 @@ padding-bottom: 10em;
 /*******************************************************CONCERTS*****************************************************/
 #current {
   color: #ff1256;
+}
+
+.concerts {
+  padding-bottom: 10em;
 }
 
 .concert-icon{
