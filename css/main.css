@@ -448,6 +448,11 @@ padding-bottom: 10em;
 
 
 /************************************************REVIEWS*****************************************/
+.top-review{
+  width: 100%;
+  margin:auto;
+}
+
 .write {
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #ccc;
@@ -571,7 +576,7 @@ padding-bottom: 10em;
 
   .main {
     float:left;
-    padding: 2em 2% 25em 2%;
+    padding: 1em 2% 25em 2%;
   }
 
   .top-story{
@@ -583,11 +588,6 @@ padding-bottom: 10em;
   .top-img{
     width:57%;
     float:left;
-  }
-
-  .top-img img{
-    max-width: 100%;
-    max-height: 100%;
   }
 
   .top-info{
@@ -736,11 +736,61 @@ padding-bottom: 10em;
   .newsletter {
     float: left;
     width: 100%;
+    border-top: 1px solid #ccc;
   }
 
-  .newsletter h2 {
-    padding-top: 1em;
-    border-top: 1px solid #ccc;
+/*******************************************REVIEWS*****************************************/
+  .top-review {
+    padding-bottom: 2em;
+    float:left;
+  }
+
+  .review-info {
+    padding-left: 1.5em;
+    width:37%;
+    float:left;
+  }
+
+  .review-feed-info {
+    margin: 0;
+    width:45%;
+    float: left;
+    height: auto;
+  }
+
+  .review-feed-info h2{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0px;
+    font-size: 1.25em;
+  }
+
+  .review-item {
+    clear:both;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: inline-block;
+  }
+
+  .review-item h2 a {
+    color:#222;
+  }
+
+  .review-item h2 a:hover{
+    color: #23a4cc;
+  }
+
+  .review-item:nth-child(7){
+    border-bottom: none;
+  }
+
+  .write {
+    border-bottom: 1px solid #ccc;
+    border-top: 0px;
+    padding-bottom: 1em;
   }
 }
 /**********************************************END TABLET****************************************************************************************/
