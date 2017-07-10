@@ -129,10 +129,6 @@ h1 {
   line-height: 1.6;
 }
 
-h2{
-  font-size:1em;
-}
-
 .btn{
     background-color: #b21e49;
     border: none;
@@ -322,9 +318,8 @@ nav ul li a:hover{
   margin: 0px;
 }
 
-/***detail pages*********/
-.reviews-img,
-.news-img{
+/***********************detail pages**********/
+.reviews-img, .news-img{
     width:100%;
     margin: 0;
 }
@@ -415,8 +410,14 @@ padding-bottom: 10em;
   color: #ff1256;
 }
 
-.concerts {
+.concerts-column1 {
   padding-bottom: 10em;
+  width:100%;
+  display: block;
+}
+
+.concerts-column2 {
+  display: none;
 }
 
 .concert-icon{
@@ -712,8 +713,23 @@ padding-bottom: 10em;
   #team-img-03 {
 	 background-image:url('../img/team-willow.png');
   }
-}
 
+/****************************CONCERTS**********************************************/
+  .feed-item {
+
+  }
+
+  .concerts-column1 {
+    width: 45%;
+    float: left;
+  }
+
+  .concerts-column2 {
+    width: 45%;
+    float: right;
+    display: block;
+  }
+}
 /**********************************************END TABLET****************************************************************************************/
 /********************************DESKTOP*********************************************************************************************************/
 @media screen and (min-width: 940px) {
