@@ -892,15 +892,11 @@ padding-bottom: 10em;
   /**********************footer********************/
 
     #footer-logo{
-      width: 100%;
-      clear:both;
-      margin: 3em 2% 0px 2%;
       padding-top: 1em;
-      border-top: 1px solid #ccc;
     }
 
     #footer-logo img{
-      width:25%;
+      width:20%;
     }
 
   /*****************************************FAQ*******************************************/
@@ -910,66 +906,37 @@ padding-bottom: 10em;
   }
   /*************************************ABOUT PAGE*****************************************/
     .contact-info{
-      padding-bottom: 1em;
-      border-bottom: 1px solid #ccc;
+      padding-top: 1em;
     }
 
     .contact-us {
       float: left;
-      padding-right: 2em;
+      padding-right: 8em;
+      width: 25%;
     }
 
+    .contact-us h1{
+      margin-top: 0px;
+    }
     .map-container{
-      padding-bottom:60%;
-    }
-
-    .mission {
-      clear: both;
-      padding-bottom: 1em;
-      border-bottom: 1px solid #ccc;
+      padding-bottom:50%;
+      width:50%;
     }
 
     .team{
-
-    }
-
-    .team-member{
-
-    }
-
-    .team-img{
-      background-position:center;
-      background-size: cover;
-      background-repeat:no-repeat;
-      width:15%;
-      padding-bottom:15%;
-      float:left;
-      margin-right:50px;
-      border:1px solid #ccc;
+      padding-bottom: 20em;
     }
 
     .team-name{
-
+      margin: 0px;
     }
 
     .team-title{
-
+      margin-top: 0px;
     }
 
     .team-description{
-      display:none;
-    }
-
-    #team-img-01 {
-  	 background-image:url('../img/team-jack.png');
-    }
-
-    #team-img-02 {
-  	 background-image:url('../img/team-lana.png');
-    }
-
-    #team-img-03 {
-  	 background-image:url('../img/team-willow.png');
+      display:block;
     }
 
   /****************************CONCERTS**********************************************/
