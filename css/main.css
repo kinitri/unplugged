@@ -950,7 +950,7 @@ padding-bottom: 10em;
     .concerts h2 {
       width: 60%;
     }
-    
+
     .concerts-column1 {
       width: 45%;
       float: left;
@@ -991,10 +991,17 @@ padding-bottom: 10em;
       border-bottom: 0px;
     }
   /*************************************NEWS*****************************************/
+    .news-story{
+      width:65%;
+      float: left;
+      padding-right: 1em;
+      border-right: 1px solid #ccc;
+      margin-bottom: 20em;
+    }
 
     .newsletter {
       float: left;
-      width: 100%;
+      width: 30%;
       padding-left: 1em;
     }
 
