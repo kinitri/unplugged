@@ -499,6 +499,35 @@ padding-bottom: 10em;
 .concert-sidebar .newsletter{
   display:none;
 }
+
+/*****************************************NEWS DETAIL********************************************/
+.news-story{
+  width:100%;
+  float: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.news-story .top-img {
+    padding-right: 1em;
+}
+
+.news-story h1{
+  margin-bottom: 0px;
+}
+
+.news-sidebar{
+  float: left;
+  width:100%;
+}
+
+.news-sidebar .newsletter {
+  border-bottom: none;
+  padding-top: 0.75em;
+}
+
+.news-sidebar .newsletter h2{
+  margin-top: 0;
+}
 /************************************************REVIEWS*****************************************/
 .top-review{
   width: 100%;
@@ -696,7 +725,7 @@ padding-bottom: 10em;
 /**********************footer********************/
 
   #footer-logo{
-    width: 100%;
+    width: 98%;
     clear:both;
     padding-top: 2em;
     border-top: 1px solid #ccc;
@@ -805,11 +834,48 @@ padding-bottom: 10em;
   }
 /*************************************NEWS*****************************************/
 
-  .newsletter {
-    float: left;
-    width: 100%;
-  }
+.news-story{
+  width:100%;
+  float: left;
+  border-bottom: 1px solid #ccc;
+}
 
+.news-story .top-img {
+  padding-bottom: 1em;
+}
+
+.news-story h1{
+  margin: 0px;
+}
+
+.text{
+  clear: both;
+}
+
+.news-sidebar{
+  float: left;
+  width:100%;
+}
+
+.news-sidebar .newsletter {
+  border-bottom: 1px solid #ccc;
+  padding-top: 0.75em;
+}
+
+.news-sidebar .newsletter h2{
+  margin-top: 0;
+}
+
+.news-sidebar .newsletter input{
+    width: 65%;
+}
+
+.news-sidebar .newsletter .btn{
+    width:33%;
+    float: right;
+    height: 35px;
+    line-height: 35px;
+}
 /*******************************************REVIEWS*****************************************/
   .top-review {
     padding-bottom: 2em;
@@ -874,10 +940,6 @@ padding-bottom: 10em;
     float: left;
     width:37%;
     padding-left: 1em;
-  }
-
-  .text{
-    clear: both;
   }
 }
 /**********************************************END TABLET****************************************************************************************/
@@ -972,6 +1034,8 @@ padding-bottom: 10em;
 
   #footer-logo{
     padding-top: 1em;
+    margin: 0 2%;
+    width:96%;
   }
 
   #footer-logo img{
@@ -1077,29 +1141,38 @@ padding-bottom: 10em;
   }
   /*************************************NEWS*****************************************/
   .news-story{
-    width:65%;
+    width:60%;
     float: left;
-    padding-right: 1em;
+    border-bottom: none;
     border-right: 1px solid #ccc;
-    margin-bottom: 20em;
+    padding-right: 1em;
+    margin-bottom: 10em;
   }
 
-  .news-newsletter {
-    float: left;
-    padding-left: 1em;
+  .news-sidebar{
+    float: right;
+    width:38%;
+  }
+
+  .news-sidebar .newsletter {
     border-bottom: 1px solid #ccc;
-    padding-bottom: 20px;
-    width: 30%;
+    padding-top: 0.75em;
+    padding-left: 1em;
   }
 
-  .news-newsletter input{
-    width: 100%;
-    box-sizing: border-box;
+  .news-sidebar .newsletter h2{
+    margin-top: 0;
   }
 
-  .news-newsletter input[type="text"]{
-    margin-bottom: 10px;
-    padding: 5px 0;
+  .news-sidebar .newsletter input{
+      width: 65%;
+  }
+
+  .news-sidebar .newsletter .btn{
+      width:33%;
+      float: right;
+      height: 35px;
+      line-height: 35px;
   }
   /*******************************************REVIEWS*****************************************/
   .top-review {
