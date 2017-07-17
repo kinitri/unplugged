@@ -186,6 +186,10 @@ input.btn:hover{
   text-align: center;
 }
 
+#logo img{
+  max-width:100%;
+}
+
 .fa {
   padding-right: 10px;
 }
@@ -197,13 +201,14 @@ nav{
 
 nav ul {
   list-style:none;
-  padding:0;
+  padding: 0px;;
+  margin: 0px;
 }
 
 nav ul li{
   border-bottom: 1px solid #ccc;
   text-align: center;
-  padding: 15px 0;
+  padding: 20px 0;
 }
 
 nav ul li a{
@@ -219,7 +224,7 @@ nav ul li a:hover{
 /********************************main area********************/
 .main {
   width: 100%;
-  padding: 0 2%;
+  padding: 1em 2% 0px 2%;
   margin:auto;
 }
 
@@ -358,6 +363,10 @@ nav ul li a:hover{
 /******************************************FAQ*************************************************/
 .faq-item{
   border-bottom: 1px solid #ccc;
+}
+
+.faq-item:nth-child(4){
+  padding-bottom: 10em;
 }
 /*************************************ABOUT PAGE*****************************************/
 .contact-us p {
@@ -598,7 +607,7 @@ padding-bottom: 10em;
 
   .main {
     float:left;
-    padding: 1em 2% 12em 2%;
+    padding: 1em 2% 11em 2%;
   }
 
   .top-story{
@@ -624,15 +633,15 @@ padding-bottom: 10em;
   }
 
   .top-info p {
-    margin-top: 0px;
+    margin: 0px;
   }
 /***********************************sidebar area*******************************/
 
   .sidebar{
     clear:both;
-    width:39%;
+    width:37%;
     float:right;
-    padding-bottom:30em;
+    padding:0px 0px 30em 1em;
   }
 
   .upcoming, .faq {
@@ -647,6 +656,10 @@ padding-bottom: 10em;
     width:60%;
     float:left;
     border-right: 1px solid #ccc;
+  }
+
+  .feed h2{
+    margin-bottom: 0px;
   }
 
   .feed-image {
@@ -669,7 +682,8 @@ padding-bottom: 10em;
 
 /*****************************************FAQ*******************************************/
 .faq-item:nth-child(4){
-  padding-bottom: 20em;
+  padding-bottom: 11em;
+  border-bottom: none;
 }
 /*************************************ABOUT PAGE*****************************************/
   .contact-info{
@@ -854,7 +868,7 @@ padding-bottom: 10em;
 
   /*******************featured story area*******************************/
   .main{
-    padding-bottom: 1em;
+    padding: 1em 2% 0px 2%;
   }
 
   .hero-area{
@@ -889,6 +903,10 @@ padding-bottom: 10em;
     border-left: 1px solid #ccc;
   }
 
+  .newsletter h2{
+    margin-top: 0px;
+  }
+
   .faq {
     border-bottom: 0px;
   }
@@ -902,6 +920,10 @@ padding-bottom: 10em;
 
   .feed-item{
     padding-bottom: 1em;
+  }
+
+  .feed-item:nth-child(7){
+    padding-bottom: 4em;
   }
 
   .feed-image{
@@ -927,9 +949,7 @@ padding-bottom: 10em;
 
   /*****************************************FAQ*******************************************/
   .faq-item:nth-child(4){
-    border-bottom: 0px;
-    padding-bottom: 1em;
-  }
+    }
   /*************************************ABOUT PAGE*****************************************/
   .contact-info{
     padding-top: 1em;
@@ -1079,8 +1099,6 @@ padding-bottom: 10em;
     padding-left: 0px;
   }
 
-  .newsletter{
-  }
 }
 /************************************END DESKTOP*****************************************************************/
 
