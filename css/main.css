@@ -369,6 +369,10 @@ nav ul li a:hover{
   padding-bottom: 10em;
 }
 /*************************************ABOUT PAGE*****************************************/
+.contact-us h1 {
+  margin-bottom: 0px;
+}
+
 .contact-us p {
   line-height: 0.75;
 }
@@ -575,24 +579,23 @@ padding-bottom: 10em;
   }
 
   #logo{
-    width:35%;
+    width:260px;
     float: left;
     text-align:left;
   }
 
   #logo img{
-    max-width: 100%;
-    max-height: 100px;
+    height: 70px;
   }
 
   nav{
     width:100%;
-    height: 100px;
+    height: 70px;
   }
 
   nav ul {
     margin: 0px;
-    padding: 15px 1em 0px 0px;
+    padding-right: 1em;
     float: right;
   }
 
@@ -687,13 +690,17 @@ padding-bottom: 10em;
 }
 /*************************************ABOUT PAGE*****************************************/
   .contact-info{
-    padding-bottom: 1em;
+    padding: 1em 0px 2em 0px;
     border-bottom: 1px solid #ccc;
   }
 
   .contact-us {
     float: left;
     padding-right: 2em;
+  }
+
+  .contact-us h1 {
+    margin: 0px;
   }
 
   .map-container{
@@ -715,14 +722,9 @@ padding-bottom: 10em;
   }
 
   .team-img{
-    background-position:center;
-    background-size: cover;
-    background-repeat:no-repeat;
     width:15%;
     padding-bottom:15%;
-    float:left;
-    margin-right:50px;
-    border:1px solid #ccc;
+    margin-right:3em;
   }
 
   .team-name{
@@ -856,7 +858,6 @@ padding-bottom: 10em;
     /**********header area*******************/
 
   #logo{
-    width:30%;
     text-align: left;
     float: left;
   }
