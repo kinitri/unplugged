@@ -127,19 +127,19 @@ h1, h2, h3, h4 {
 
 h1 {
   line-height: 1.6;
-  font-size: 2em;
+  font-size: 32px;
 }
 
 h2{
-  font-size:1.25em;
+  font-size:24px;
 }
 
 h3{
-  font-size:1.15em;
+  font-size:20px;
 }
 
 h4 {
-  font size: 1em;
+  font size: 18px;
 }
 
 .btn{
@@ -226,6 +226,7 @@ nav ul li a:hover{
   width: 100%;
   padding: 1em 2% 0px 2%;
   margin:auto;
+  float: left;
 }
 
 .top-img {
@@ -352,6 +353,7 @@ nav ul li a:hover{
   height: auto;
   border-top: 1px solid #ccc;
   padding: 1.5em 2% 0px 2%;
+  float: left;
 }
 
 #footer-logo img{
@@ -438,26 +440,46 @@ padding-bottom: 10em;
   color: #ff1256;
 }
 
-.concerts-column1 {
-  padding-bottom: 10em;
+.concerts-column1, .concerts-column2 {
   width:100%;
   display: block;
+  float:left;
 }
 
-.concerts-column2 {
-  display: none;
+.concert-item{
+  float:left;
+  width: 100%;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #ccc;
+}
+
+.concerts-column2 .concert-item:nth-child(5){
+  padding-bottom: 15em;
+  border-bottom: none;
 }
 
 .concert-icon{
-  width: 30%;
+  width: 100%;
+  max-width: 85px;
   float: left;
   margin: 0;
   height: auto;
+  padding-top: 0.5em;
 }
 
 .concert-info {
   float: left;
-  width: 55%;
+  width: 71%;
+}
+
+.concert-info h4{
+
+}
+
+.concert-info h4, p{
+    margin-top: 0px;
+    margin-bottom: 8px;
 }
 
 .ticket-btn {
@@ -472,9 +494,11 @@ padding-bottom: 10em;
   height: 2.5em;
   width: 100%;
   display: block;
+  }
+
+.concert-sidebar .newsletter{
+  display:none;
 }
-
-
 /************************************************REVIEWS*****************************************/
 .top-review{
   width: 100%;
@@ -632,7 +656,6 @@ padding-bottom: 10em;
 
   .top-info h1{
     margin: 0px;
-    font-size: 1.5em;
   }
 
   .top-info p {
@@ -765,14 +788,21 @@ padding-bottom: 10em;
     display: block;
   }
 
+  .concert-icon{
+    padding-top: 0.25em;
+  }
+
   .concert-info h4 {
-    line-height: 0.1em;
+
   }
 
-  .concert-info p {
-    line-height: 0.1em;
+  .concert-info p:nth-child(2) {
+    margin-bottom: 0px;
   }
 
+  .concerts-column1 .concert-item:nth-child(5){
+    border-bottom: none;
+  }
 /*************************************NEWS*****************************************/
 
   .newsletter {
@@ -1013,12 +1043,8 @@ padding-bottom: 10em;
     display: block;
   }
 
-  .concert-info h4 {
-    line-height: 0.1em;
-  }
-
-  .concert-info p {
-    line-height: 0.1em;
+  .concert-info {
+    width:65%;
   }
 
   .concert-sidebar {
@@ -1036,8 +1062,18 @@ padding-bottom: 10em;
     display: inline-block;
   }
 
-  .concert-item:nth-child(5){
-    border-bottom: 0px;
+  .concerts-column2 .concert-item:nth-child(5){
+    padding-bottom: 10em;
+  }
+
+  .concert-sidebar .newsletter{
+    display:block;
+    padding-left: 1em;
+    width:94%;
+  }
+
+  .concert-sidebar .newsletter h2{
+    margin:19.9px 0px;
   }
   /*************************************NEWS*****************************************/
   .news-story{
