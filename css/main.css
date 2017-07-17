@@ -127,6 +127,19 @@ h1, h2, h3, h4 {
 
 h1 {
   line-height: 1.6;
+  font-size: 2em;
+}
+
+h2{
+  font-size:1.25em;
+}
+
+h3{
+  font-size:1.15em;
+}
+
+h4 {
+  font size: 1em;
 }
 
 .btn{
@@ -224,6 +237,8 @@ nav ul li a:hover{
 .top-story{
   width: 100%;
   margin:auto;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #ccc;
 }
 
 /************************sidebar area*********************/
@@ -285,11 +300,12 @@ nav ul li a:hover{
 
 .feed-item:nth-child(7){
   border-bottom: none;
+  padding-bottom: 2em;
 }
 
 .feed-type{
   text-transform:uppercase;
-  font-size:0.8em;
+  font-size:1em;
 }
 
 .feed-image{
@@ -297,7 +313,6 @@ nav ul li a:hover{
   float: left;
   margin: 0;
   padding-right: 3%;
-  height: auto;
 }
 
 .feed-image img{
@@ -331,7 +346,7 @@ nav ul li a:hover{
   margin:auto;
   height: auto;
   border-top: 1px solid #ccc;
-  padding: 1em 2% 0px 2%;
+  padding: 1.5em 2% 0px 2%;
 }
 
 #footer-logo img{
@@ -547,21 +562,29 @@ padding-bottom: 10em;
   .main-header{
     width:100%;
     float:left;
+    height: 100%;
   }
 
   #logo{
-    width:40%;
+    width:35%;
     float: left;
+    text-align:left;
   }
 
   #logo img{
     max-width: 100%;
-    max-height: 100%;
+    max-height: 100px;
   }
 
   nav{
-    width:60%;
-    float: left;
+    width:100%;
+    height: 100px;
+  }
+
+  nav ul {
+    margin: 0px;
+    padding: 15px 1em 0px 0px;
+    float: right;
   }
 
   nav ul li{
@@ -575,11 +598,11 @@ padding-bottom: 10em;
 
   .main {
     float:left;
-    padding: 1em 2% 25em 2%;
+    padding: 1em 2% 12em 2%;
   }
 
   .top-story{
-    padding-bottom: 2em;
+    padding-bottom: 1em;
     float:left;
     border-bottom: 1px solid #ccc;
   }
@@ -590,14 +613,19 @@ padding-bottom: 10em;
   }
 
   .top-info{
-    width:37%;
+    width:40%;
     float:left;
+    padding-left: 1em;
   }
 
   .top-info h1{
-    margin-top: 0px;
+    margin: 0px;
+    font-size: 1.5em;
   }
 
+  .top-info p {
+    margin-top: 0px;
+  }
 /***********************************sidebar area*******************************/
 
   .sidebar{
@@ -819,11 +847,6 @@ padding-bottom: 10em;
     float: left;
   }
 
-  nav{
-    width:70%;
-    float: left;
-  }
-
   nav ul {
     float:right;
     padding-right: 1em;
@@ -842,7 +865,6 @@ padding-bottom: 10em;
   .top-story{
     padding-right: 1em;
     width:58%;
-    border-right: 1px solid #ccc;
     border-bottom: 0px;
   }
 
@@ -853,6 +875,7 @@ padding-bottom: 10em;
 
   .top-info{
     width:100%;
+    padding-left: 0px;
   }
 
 /***********************************sidebar area*******************************/
@@ -860,7 +883,10 @@ padding-bottom: 10em;
   .sidebar{
     clear:none;
     padding-bottom: 0px;
-    width: 30%;
+    width: 38%;
+    float:left;
+    padding-left: 1em;
+    border-left: 1px solid #ccc;
   }
 
   .faq {
@@ -1054,7 +1080,6 @@ padding-bottom: 10em;
   }
 
   .newsletter{
-    padding-left: 1em;
   }
 }
 /************************************END DESKTOP*****************************************************************/
