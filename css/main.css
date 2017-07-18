@@ -126,7 +126,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  line-height: 1.6;
+  line-height: 1.4;
   font-size: 32px;
 }
 
@@ -312,13 +312,14 @@ nav ul li a:hover{
 .feed-type{
   text-transform:uppercase;
   font-size:1em;
+  margin-bottom: 0;
 }
-
 .feed-image{
   width: 45%;
   float: left;
   margin: 0;
   padding-right: 3%;
+  padding-top: 0.5em;
 }
 
 .feed-image img{
@@ -534,11 +535,33 @@ padding-bottom: 10em;
   margin:auto;
 }
 
+.review-info h1{
+  margin: 0;
+}
+
+.review-sidebar .newsletter{
+  display: none;
+}
+
 .write {
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #ccc;
-  padding-bottom: 20px 0px 20px 0px;
+  padding-bottom: 1em;
 }
+
+.write h3 {
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.feed-info h3 {
+    margin: 0;
+}
+
+.feed-info h3 a{
+    color:black;
+}
+
 /* ===================================================================================================================
    Helper classes
    =================================================================================================================== */
@@ -675,6 +698,7 @@ padding-bottom: 10em;
   .top-img{
     width:57%;
     float:left;
+    padding-top: 0.75em;
   }
 
   .top-info{
@@ -693,22 +717,22 @@ padding-bottom: 10em;
 /***********************************sidebar area*******************************/
 
   .sidebar{
-    clear:both;
-    width:37%;
+    width:29.8%;
     float:right;
-    padding:0px 0px 30em 1em;
+    padding-bottom: 30em;
   }
 
-  .upcoming, .faq {
+  .newsletter, .upcoming, .faq {
     display:block;
     border-bottom: 1px solid #ccc;
     padding-bottom: 1em;
+    padding-left: 1em;
   }
 
 /****************news feed area**************************/
 
   .feed {
-    width:60%;
+    width:70%;
     float:left;
     border-right: 1px solid #ccc;
   }
@@ -878,7 +902,7 @@ padding-bottom: 10em;
 }
 /*******************************************REVIEWS*****************************************/
   .top-review {
-    padding-bottom: 2em;
+    padding-bottom: 1.5em;
     float:left;
   }
 
@@ -888,46 +912,57 @@ padding-bottom: 10em;
     float:left;
   }
 
-  .review-feed-info {
+  .review-info h1{
     margin: 0;
-    width:45%;
+  }
+
+  .review-sidebar{
+    width: 29.8%;
+    float: right;
+  }
+
+  .review-sidebar .newsletter, .upcoming, .faq{
+    display: block;
+    padding-left: 1em;
+    width:94%;
+  }
+
+  .write {
+    display:none;
+  }
+
+  .feed-info h3 {
+      margin: 0;
+  }
+
+  .feed-info h3 a{
+      color:black;
+  }
+
+  .feed-info {
+    margin: 0;
+    width:60%;
     float: left;
     height: auto;
   }
 
-  .review-feed-info h2{
-    max-width: 100%;
+  .feed-info h3{
+    width: 100%;
     max-height: 100%;
     margin: 0px;
     font-size: 1.25em;
   }
 
-  .review-item {
-    clear:both;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 15px;
-    width: 100%;
-    height: auto;
-    margin: auto;
-    display: inline-block;
-  }
-
-  .review-item h2 a {
+  .feed-item h3 a {
     color:#222;
   }
 
-  .review-item h2 a:hover{
+  .feed-item h3 a:hover{
     color: #23a4cc;
   }
 
-  .review-item:nth-child(7){
+  .feed-item:nth-child(7){
     border-bottom: none;
-  }
-
-  .write {
-    border-bottom: 1px solid #ccc;
-    border-top: 0px;
-    padding-bottom: 1em;
   }
 
 /*****************************REVEIW DETAIL*******************************/
@@ -971,7 +1006,7 @@ padding-bottom: 10em;
 
   .top-story{
     padding-right: 1em;
-    width:58%;
+    width:65%;
     border-bottom: 0px;
   }
 
@@ -990,9 +1025,8 @@ padding-bottom: 10em;
   .sidebar{
     clear:none;
     padding-bottom: 0px;
-    width: 38%;
+    width: 32%;
     float:left;
-    padding-left: 1em;
     border-left: 1px solid #ccc;
   }
 
@@ -1009,6 +1043,8 @@ padding-bottom: 10em;
   .feed {
     width:100%;
     border: 0px;
+    float:none;
+    clear: both;
   }
 
   .feed-item{
@@ -1176,10 +1212,10 @@ padding-bottom: 10em;
   }
   /*******************************************REVIEWS*****************************************/
   .top-review {
-    width: 58%;
+    width: 70%;
     padding-right: 1em;
     border-right: 1px solid #ccc;
-    padding-bottom: 3em;
+    padding-bottom: 4em;
   }
 
   .review-info {
@@ -1187,8 +1223,13 @@ padding-bottom: 10em;
     width:100%;
   }
 
-  .review-feed-info {
+  .feed-info {
     width:72%;
+  }
+
+  .review-sidebar {
+    width: 28%;
+    float:left;
   }
 
   .write {
