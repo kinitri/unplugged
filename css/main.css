@@ -562,6 +562,32 @@ padding-bottom: 10em;
     color:black;
 }
 
+/**********************************************REVIEWDETAIL*************************************************/
+.preface{
+    margin-bottom: 1em;
+}
+
+.preface h1{
+  margin-bottom: 0;
+}
+
+.preface p {
+  margin: 0.5em 0;
+}
+
+.preface h3{
+  font-weight: normal;
+}
+
+.text {
+  padding-bottom: 1em;
+  border-bottom: 1px solid #ccc;
+}
+
+.review-detail-sidebar .newsletter{
+  border-bottom: none;
+}
+
 /* ===================================================================================================================
    Helper classes
    =================================================================================================================== */
@@ -967,7 +993,7 @@ padding-bottom: 10em;
 
 /*****************************REVEIW DETAIL*******************************/
   .top-area{
-    padding-bottom: 2em;
+    padding-bottom: 0;
     float:left;
   }
 
@@ -975,6 +1001,30 @@ padding-bottom: 10em;
     float: left;
     width:37%;
     padding-left: 1em;
+    margin:0;
+  }
+
+  .preface h1{
+    margin-top: 0.25em;
+  }
+
+  .text{
+    padding-top: 8px;
+  }
+
+  .review-detail-sidebar .newsletter {
+    border-bottom: 1px solid #ccc;
+  }
+
+  .review-detail-sidebar .newsletter input{
+      width: 65%;
+  }
+
+  .review-detail-sidebar .newsletter .btn{
+      width:33%;
+      float: right;
+      height: 35px;
+      line-height: 35px;
   }
 }
 /**********************************************END TABLET****************************************************************************************/
@@ -1238,7 +1288,7 @@ padding-bottom: 10em;
 
   /*****************************REVEIW DETAIL*******************************/
   .review{
-    width:68%;
+    width:65%;
     margin-bottom: 10em;
     float:left;
     padding-right: 1em;
@@ -1248,6 +1298,24 @@ padding-bottom: 10em;
   .preface{
     width:100%;
     padding-left: 0px;
+  }
+
+  .text{
+    border-bottom: none;
+  }
+
+  .review-detail-sidebar .newsletter{
+    width: 31%;
+    float:left;
+  }
+
+  .review-detail-sidebar .newsletter input{
+    width: 100%;
+  }
+
+  .review-detail-sidebar .newsletter .btn{
+      width:100%;
+      float: none;
   }
 
 }
