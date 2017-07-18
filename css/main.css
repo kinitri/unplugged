@@ -372,6 +372,10 @@ nav ul li a:hover{
   padding-bottom: 10em;
 }
 /*************************************ABOUT PAGE*****************************************/
+.contact-us {
+    padding-bottom: 1em;
+}
+
 .contact-us h1 {
   margin-bottom: 0px;
 }
@@ -411,14 +415,6 @@ padding-bottom: 10em;
   float:left;
   margin-right:20px;
   border:1px solid #ccc;
-}
-
-.team-name{
-
-}
-
-.team-title{
-
 }
 
 .team-description{
@@ -472,10 +468,6 @@ padding-bottom: 10em;
 .concert-info {
   float: left;
   width: 71%;
-}
-
-.concert-info h4{
-
 }
 
 .concert-info h4, p{
@@ -815,26 +807,10 @@ padding-bottom: 10em;
     border-bottom: 1px solid #ccc;
   }
 
-  .team{
-
-  }
-
-  .team-member{
-
-  }
-
   .team-img{
     width:15%;
     padding-bottom:15%;
     margin-right:3em;
-  }
-
-  .team-name{
-
-  }
-
-  .team-title{
-
   }
 
   .team-description{
@@ -869,10 +845,6 @@ padding-bottom: 10em;
 
   .concert-icon{
     padding-top: 0.25em;
-  }
-
-  .concert-info h4 {
-
   }
 
   .concert-info p:nth-child(2) {
@@ -1129,8 +1101,7 @@ padding-bottom: 10em;
   }
 
   /*****************************************FAQ*******************************************/
-  .faq-item:nth-child(4){
-    }
+
   /*************************************ABOUT PAGE*****************************************/
   .contact-info{
     padding-top: 1em;
